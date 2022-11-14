@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fuzzy Bubbles", cursive;
+    /* font-family: 'Roboto', sans-serif; */
+    scroll-behavior: smooth;
+}
+p {
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  li{
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("bg.tar2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner .content {
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2 {
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+  }
+  .banner .content p {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+  }
+  header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+  header img{
+    /* filter: invert(100%); */
+    width: 250px;
+}
+section{
+    padding: 100px;
+}
+.tittleText{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+.tittleText span{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+
+}
+.tittle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.event{
+    background: url('pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.event .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    /* background: url('bg.1.jpg'); */
+}
+.event .content .box{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid rgb(255, 255, 255);
+    box-shadow: 0 5px 35px rgba(0,0,0, 0.3);
+    /* background-color: aqua; */
+    background: url('EHVfaO.jpg');
+    padding-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.event .content .box .eventcard_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 1.6em;
+    
+}
+.event .content .box .eventcard_head h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.eventcard_head span{
+    color: #ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+
+}
+span:hover{
+    color: #ff0157;
+    }
+.eventbtn{
+    text-align: center;
+    background-color: #131313;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1rem;
+    margin-left: 84px;
+    margin-right: 84px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+.box:hover{
+    transform: scale(1.075);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+
+.event .content .box .text{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px #ffffff;
+    padding: 8px;
+    text-transform: capitalize;
+    /* display: block; */
+    padding: 10px;
+    flex-direction: column;
+}
+.event .content .box .text  >span{
+    display: block;
+}
+.text_btn{
+    text-align: left;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: 400;
+}
+.text_btn:hover{
+    color: #ff0157;
+}
+.event .content .box .text h3{
+    font-weight: 400;
+    color: #111;
+}
+.registration{
+    width: 100%;
+    display: flex;
+    /* background-color: #f1687a; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* .event .registration:hover{
+    background-color: #fff;
+} */
+.registration .btn{
+    font-size: 1em;
+  color: #111;
+  background-color: #ec7484;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  border: 2px solid gray;
+  border-radius: 50px;
+}
+.registration .btn:hover {
+    background-color: rgb(216, 229, 74);
+  }
+.copyrightText{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0,0,0, 0.1);
+    text-align: center;
+    justify-self: center;
+    color: #111;
+}
+.modalheader{
+    background-color: #ff0157;
+    text-align: center;
+    justify-content: center;
+}
+.modaltittle{
+    text-align: center;
+    justify-content: center;
+}
+.modalbody{
+    /* background-color: aqua; */
+    background: url('bg.tr.png');
+    background-size: cover;
+    background-position: center;
+}
+.modalbody::-webkit-scrollbar {
+    width: 5px;
+    /* display: none; */
+}
+.modalbody::-webkit-scrollbar-track {
+    background: none;
+}
+.modalbody::-webkit-scrollbar-thumb {
+    background: #888;
+    
+}
+.modalbody::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    overflow: hidden;
+}
+.modalbody .content{
+    padding: 20px;
+}
+.modalfooter{
+    background-color: #111;
+}
+.cordinator{
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+.Description_head{
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+.cordinator_name{
+    font-size: 1.2em;
+    justify-content: center;
+    align-items: center;
+}
+.registration_fee 
+{
+    font-size: 1.5em;
+    text-align: center;
+}
+.prize_money{
+    text-align: center;
+    font-size: 1.5em;
+}
+.First_prize{
+    text-align: center;
+    font-size: 1.2em;
+}
+.Second_prize{
+    text-align: center;
+    font-size: 1.2em;
+}
+.event_head{
+    font-size: 1.5em;
+    text-align: center;
+}
+.event_head_name{
+    font-size: 1.2em;
+}
+.description{
+   font-size: 1em;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+}
+.arm li{
+    font-size: 1em;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+}
+.guidline_head{
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+.guidline{
+    font-size: 1em;
+}
+.engine{
+    font-size: 1.5em
+}
+.engineli{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.scoring_head{
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+.scoring{
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 991px){
+    header{
+        padding: 10px 20px;
+    }
+    .banner .content h2{
+        font-size: 3em;
+        color: #fff;
+}
+.event .content{
+    margin-top: 20px;
+}
+.event .content .box{
+    margin: 10px;
+}
+
+
+}
+@media (max-width: 480px){
+    .banner .content h2{
+        font-size: 2.2em;
+        color: #fff;
+    }
+}
